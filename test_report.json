@@ -1,0 +1,43 @@
+{
+  "tests_run": 39,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "physical_microphone_tested": false,
+  "auditory_masking_verified_by_listening": false,
+  "incremental_character_display_tested": true,
+  "monochrome_ui_smoke_tested": true,
+  "macos_launchers": {
+    "bash_syntax_checked": true,
+    "routing_and_quoted_paths_simulated": true,
+    "physical_macos_tested": false
+  },
+  "simulations": {
+    "noise_rms_dbfs": -38,
+    "echo_cases": [
+      {
+        "delay_ms": 20,
+        "gain": 0.3
+      },
+      {
+        "delay_ms": 50,
+        "gain": 0.25
+      }
+    ],
+    "clock_change_percent": [
+      -0.3,
+      0.3
+    ]
+  },
+  "extra_tones_demo": {
+    "frequencies_hz": [
+      500,
+      730,
+      3100
+    ],
+    "relative_db": -18,
+    "decoded_without_extra_tone_settings": true,
+    "warnings": []
+  },
+  "test_output": "test_16khz (selftest.ModemTests.test_16khz) ... ok\ntest_bad_extra_tones_rejected (selftest.ModemTests.test_bad_extra_tones_rejected) ... ok\ntest_bad_header_on_one_channel (selftest.ModemTests.test_bad_header_on_one_channel) ... ok\ntest_broadband_noise (selftest.ModemTests.test_broadband_noise) ... ok\ntest_cancellation (selftest.ModemTests.test_cancellation) ... ok\ntest_clean_utf8 (selftest.ModemTests.test_clean_utf8) ... ok\ntest_clock_fast (selftest.ModemTests.test_clock_fast) ... ok\ntest_clock_slow (selftest.ModemTests.test_clock_slow) ... ok\ntest_continuous_masker_is_not_a_message (selftest.ModemTests.test_continuous_masker_is_not_a_message) ... ok\ntest_direct_frequency_and_main_clock_conflicts_warn (selftest.ModemTests.test_direct_frequency_and_main_clock_conflicts_warn) ... ok\ntest_disagree_only_affected_character_red (selftest.ModemTests.test_disagree_only_affected_character_red) ... ok\ntest_extra_tone_actually_present_at_requested_level (selftest.ModemTests.test_extra_tone_actually_present_at_requested_level) ... ok\ntest_extra_tones_do_not_change_protocol (selftest.ModemTests.test_extra_tones_do_not_change_protocol) ... ok\ntest_file_decode_partial_callback (selftest.ModemTests.test_file_decode_partial_callback) ... ok\ntest_gain_change (selftest.ModemTests.test_gain_change) ... ok\ntest_harmonics_and_intermodulation_warn (selftest.ModemTests.test_harmonics_and_intermodulation_warn) ... ok\ntest_heavy_noise_never_reported_verified (selftest.ModemTests.test_heavy_noise_never_reported_verified) ... ok\ntest_initial_noise_and_fractional_offset (selftest.ModemTests.test_initial_noise_and_fractional_offset) ... ok\ntest_invalid_parameters (selftest.ModemTests.test_invalid_parameters) ... ok\ntest_late_echo (selftest.ModemTests.test_late_echo) ... ok\ntest_live_mismatch_and_final_crc_update (selftest.ModemTests.test_live_mismatch_and_final_crc_update) ... ok\ntest_live_stream_displays_characters_before_frame_end (selftest.ModemTests.test_live_stream_displays_characters_before_frame_end) ... ok\ntest_live_utf8_waits_for_whole_character (selftest.ModemTests.test_live_utf8_waits_for_whole_character) ... ok\ntest_low_gain (selftest.ModemTests.test_low_gain) ... ok\ntest_many_strong_tones_avoid_clipping (selftest.ModemTests.test_many_strong_tones_avoid_clipping) ... ok\ntest_no_small_fixed_limit_on_number_of_tones (selftest.ModemTests.test_no_small_fixed_limit_on_number_of_tones) ... ok\ntest_noise_is_not_a_message (selftest.ModemTests.test_noise_is_not_a_message) ... ok\ntest_off_band_interference (selftest.ModemTests.test_off_band_interference) ... ok\ntest_one_channel_missing_is_red (selftest.ModemTests.test_one_channel_missing_is_red) ... ok\ntest_other_frequencies_and_sample_rate (selftest.ModemTests.test_other_frequencies_and_sample_rate) ... ok\ntest_same_wrong_data_not_verified (selftest.ModemTests.test_same_wrong_data_not_verified) ... ok\ntest_settings_only_metadata (selftest.ModemTests.test_settings_only_metadata) ... ok\ntest_short_echo (selftest.ModemTests.test_short_echo) ... ok\ntest_stereo_phase_inversion (selftest.ModemTests.test_stereo_phase_inversion) ... ok\ntest_streaming_chunks (selftest.ModemTests.test_streaming_chunks) ... ok\ntest_tone_settings_round_trip_and_legacy_config (selftest.ModemTests.test_tone_settings_round_trip_and_legacy_config) ... ok\ntest_truncated_file_is_partial_and_red (selftest.ModemTests.test_truncated_file_is_partial_and_red) ... ok\ntest_wav_without_metadata (selftest.ModemTests.test_wav_without_metadata) ... ok\ntest_wrong_frequency_rejected (selftest.ModemTests.test_wrong_frequency_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 39 tests in 8.064s\n\nOK\n"
+}

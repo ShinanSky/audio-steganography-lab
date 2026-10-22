@@ -1,0 +1,11 @@
+{
+  "sample_rate": 48000,
+  "masker_hz": 1800.0,
+  "offset_a": 120.0,
+  "offset_b": 240.0,
+  "masker_dbfs": -12.0,
+  "signal_relative_db": -30.0,
+  "unit_ms": 60.0,
+  "leader_seconds": 1.5,
+  "extra_tones": []
+}

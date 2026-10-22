@@ -1,0 +1,42 @@
+{
+  "text": "ABC",
+  "red_characters": [
+    false,
+    true,
+    false
+  ],
+  "verified": false,
+  "complete": true,
+  "finalized": true,
+  "warnings": [
+    "两路内容不一致；优先采用整帧校验通过的一路，否则采用有效字节更多的一路。",
+    "至少一路未通过完整帧 CRC32 校验，红字不可视为已确认内容。"
+  ],
+  "frequency_scale": 1.0000001193950196,
+  "channels": [
+    {
+      "text": "ABC",
+      "crc32_ok": true,
+      "header_ok": true,
+      "valid_bytes": [
+        true,
+        true,
+        true
+      ],
+      "sync_score": 0.9999999999981933,
+      "complete": true
+    },
+    {
+      "text": "AXC",
+      "crc32_ok": false,
+      "header_ok": true,
+      "valid_bytes": [
+        true,
+        true,
+        true
+      ],
+      "sync_score": 0.9999999999981632,
+      "complete": true
+    }
+  ]
+}

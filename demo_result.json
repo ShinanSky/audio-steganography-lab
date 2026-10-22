@@ -1,0 +1,44 @@
+{
+  "text": "你好",
+  "red_characters": [
+    false,
+    false
+  ],
+  "verified": true,
+  "complete": true,
+  "finalized": true,
+  "warnings": [],
+  "frequency_scale": 1.0000001193950196,
+  "channels": [
+    {
+      "text": "你好",
+      "crc32_ok": true,
+      "header_ok": true,
+      "valid_bytes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "sync_score": 0.9999999999981933,
+      "complete": true
+    },
+    {
+      "text": "你好",
+      "crc32_ok": true,
+      "header_ok": true,
+      "valid_bytes": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "sync_score": 0.9999999999981632,
+      "complete": true
+    }
+  ]
+}
